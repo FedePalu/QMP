@@ -5,6 +5,7 @@
 1- Crear la clase Clima, como singleton de AccuWeatherApi. Así se cumplirían los requerimientos de:
 * Como administrador de QuéMePongo, quiero poder configurar fácilmente diferentes servicios de obtención del clima para ajustarme a las cambiantes condiciones económicas.
 * Como stakeholder de QuéMePongo, quiero poder asegurar la calidad de mi aplicación sin incurrir en costos innecesarios. 
+
 Ya que no voy a trabajar sobre la clase AccuWeather en sí sino que en los test voy a implementar ese método setApi(AccuWeatherApi) para setear el api y no gastar dinero cada vez que hago un text.
 
 2- El método devolverTemperatura(String ciudad) está implementado para que encapsular toda implementación de getWeather, ya que devuelve un List<Map<String,Object>>, y hacer que devuelva una temperatura (int).
