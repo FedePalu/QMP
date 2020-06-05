@@ -1,4 +1,16 @@
-## QMP
+## QMP 5ta iteración
+
+# La solución consiste en:
+
+1- Se deberíá implementar Patron Command en PresupuestoAgregar dado que habría que guardarse la info para poner modificar el guardarropas y también deberían poder deshacerse.
+
+2- Haciendo herencia en Propuesta defino un comportamiento distinto en el método modificarGuardarropa de cada Propuesta que, con el boolean aceptado, defino si realizaré esa acción o no.
+
+3- Con limpiarPropuestasAceptadas() se podría hacer un forEach() fijándome en las propuestas que tienen aceptado = true y eliminarlas de las listas
+
+
+
+## QMP 4ta iteración
 
 # La solición consiste en:
 
