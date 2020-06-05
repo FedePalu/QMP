@@ -1,6 +1,6 @@
-## QMP 5ta iteración
+# QMP 5ta iteración
 
-# La solución consiste en:
+## La solución consiste en:
 
 1- Se deberíá implementar Patron Command en PresupuestoAgregar dado que habría que guardarse la info para poner modificar el guardarropas y también deberían poder deshacerse.
 
@@ -10,9 +10,9 @@
 
 
 
-## QMP 4ta iteración
+# QMP 4ta iteración
 
-# La solición consiste en:
+## La solición consiste en:
 
 1- Crear la clase Clima, como singleton de AccuWeatherApi. Así se cumplirían los requerimientos de:
 * Como administrador de QuéMePongo, quiero poder configurar fácilmente diferentes servicios de obtención del clima para ajustarme a las cambiantes condiciones económicas.
